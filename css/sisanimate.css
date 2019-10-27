@@ -1,0 +1,59 @@
+
+/*.8s ease-in-out
+*/
+#sisopspin
+{
+    position: absolute;
+    width: 90px;
+    height: 90px; 
+    margin-top: 150px; 
+    margin-left: 41vw ; 
+    margin-right: 41vw ;
+    -webkit-animation:spin .21s linear infinite;
+    -moz-animation:spin .1s linear infinite;
+    animation:spin .1s linear infinite;
+}
+
+
+#sisop {
+    position: absolute;
+    width: 90px;
+    height: 90px; 
+    margin-top: 150px; 
+    margin-left: 41vw ; 
+    margin-right: 41vw ;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#sisop:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+#profile {
+    width: 45px;
+    height: 45px; 
+    margin-top: 5px;
+}
+
+
+#sisop2 {
+    width: 55px;
+    height: 55px; 
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#sisop2:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
